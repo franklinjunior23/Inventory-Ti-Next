@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import  ProviderNextUi  from "@/Providers/ThemeNext";
+import  ProviderNextUi  from "@/app/Providers/ThemeNext";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Intisoft | Plataforma Integral",
+  title: "Intisoft | PLogin ",
   description:
     "Descubre la potencia de Intisoft: tu solución integral para gestión de inventario, soporte técnico y administración de TI. Simplifica tus operaciones y potencia tu productividad con nuestra avanzada suite de software.",
 };
